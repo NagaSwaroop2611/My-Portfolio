@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import { FaGithub,FaLinkedin } from "react-icons/fa";
-import Logo from "../assets/portfolio.png";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Logo from "/portfolio.png";
 import { cn } from "@/lib/utils";
 
 
@@ -31,7 +31,7 @@ const Navbar = () => {
         "fixed w-full z-40 transition-all duration-300",
         isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
       )}
-      style={{backgroundColor:"#6151b6"}}
+      style={{ backgroundColor: "#6151b6" }}
     >
       <div className="container flex items-center justify-between">
         <a
@@ -58,25 +58,25 @@ const Navbar = () => {
           ))}
           {/* Social Icons */}
           <a
-            href="https://github.com/Harish-Venkata"
+            href="https://github.com/NagaSwaroop2611/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground/80 hover:text-primary transition-colors duration-300"
           >
-            <FaGithub size={24} /> 
+            <FaGithub size={24} />
           </a>
           <a
-            href="https://linkedin.com/in/your-username"
+            href="https://www.linkedin.com/in/naga-swaroop-s-n-b95b09271/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground/80 hover:text-primary transition-colors duration-300"
           >
-            <FaLinkedin size={24}/>
+            <FaLinkedin size={24} />
           </a>
         </div>
-        
-        
-      {/* mobile nav */}
+
+
+        {/* mobile nav */}
 
         <button
           onClick={() => setIsMenuOpen((prev) => !prev)}
@@ -110,21 +110,21 @@ const Navbar = () => {
           {/* Social Icons */}
           <div className="flex justify-center space-x-6 pt-10">
             <a
-            href="https://github.com/Harish-Venkata"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-foreground/80 hover:text-primary transition-colors duration-300"
-          >
-            <FaGithub size={24}/> 
-          </a>
-          <a
-            href="https://linkedin.com/in/your-username"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-foreground/80 hover:text-primary transition-colors duration-300"
-          >
-            <FaLinkedin size={24}/>
-          </a>
+              href="https://github.com/NagaSwaroop2611"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+            >
+              <FaGithub size={24} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/naga-swaroop-s-n-b95b09271/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+            >
+              <FaLinkedin size={24} />
+            </a>
           </div>
         </div>
       </div>

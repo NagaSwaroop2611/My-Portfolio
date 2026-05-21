@@ -1,36 +1,36 @@
 import ThemeToggle from "../components/ThemeToggle";
 import StarBackGround from "@/components/StarBackGround";
-import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
 import SkillsSection from "../components/SkillsSection";
 import ProjectsSection from "../components/ProjectsSection";
-import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
+import Contact from "../components/Contact";
+import Navbar from "../components/Navbar";
 
- 
+
 export default function Home() {
-  
+
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Theme Toggle */}
       <ThemeToggle />
 
       {/* Background Effects */}
-      <StarBackGround/>
+      <StarBackGround />
 
       {/* Navbar */}
-      <Navbar/>
+      <Navbar />
       {/* Main Content */}
       <main>
         <HeroSection />
-        <AboutSection/>
-        <SkillsSection/>
-        <ProjectsSection/>
-        <ContactSection/>
+        <AboutSection />
+        <SkillsSection />
+        <ProjectsSection />
+        <Contact />
       </main>
       {/* Footer */}
-      <Footer/>
+      <Footer />
     </div>
   )
 }

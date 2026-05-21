@@ -1,11 +1,5 @@
 import { ArrowRight, ExternalLink } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
-import project1 from "../assets/projects/todo-advance.png";
-import project2 from "../assets/projects/weather-app.png";
-import project3 from "../assets/projects/music-player.png";
-import project4 from "../assets/projects/image-carosuel.png";
-import project5 from "../assets/projects/calculator.png";
-import project6 from "../assets/projects/usePopcorn.png";
 
 
 
@@ -15,7 +9,7 @@ const projects = [
     title: "Todo App (Full Stack)",
     description:
       "A full-stack React + Node.js To-Do app with CRUD operations, MongoDB storage, and responsive design.",
-    image: project1,
+    image: "/projects/todo-app.png",
     tags: [
       "React",
       "Node.js",
@@ -34,27 +28,36 @@ const projects = [
     title: "Weather App",
     description:
       "Built with React and Open-Meteo API, this weather app provides hourly and daily forecasts based on user location or search.",
-    image: project2,
+    image: "/projects/weather-app.png",
     tags: ["React", "JavaScript", "Open-Meteo API", "Netlify"],
     demoUrl: "https://swaroop-weather-app.netlify.app/",
     githubUrl: "https://github.com/NagaSwaroop2611/Weather-App-Deployment",
   },
   {
     id: 3,
-    title: "Music Player",
+    title: "Online Bakery",
     description:
-      "A JavaScript-based music player with playlist control, shuffle, loop, volume adjustment, and a modal with artist details.",
-    image: project3,
-    tags: ["HTML5", "CSS3", "JavaScript", "GitHub"],
-    demoUrl: "https://nagaswaroop2611.github.io/Simple-spotify-clone/",
-    githubUrl: "https://github.com/NagaSwaroop2611/Simple-spotify-clone",
+      "A full-stack online bakery web application built with React, Redux Toolkit, Node.js, Express, and MongoDB.",
+    image: "/projects/online-bakery.png",
+    tags: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Postman",
+      "GitHub",
+      "Netlify",
+      "Render",
+    ],
+    demoUrl: "https://tenon10-assignment.vercel.app/",
+    githubUrl: "https://github.com/NagaSwaroop2611/Tenon10-Assignment",
   },
   {
     id: 4,
     title: "Image Carousel",
     description:
       "Developed an interactive image carousel with HTML, CSS, and JavaScript that supports manual and auto navigation with full-screen preview support.",
-    image: project4,
+    image: "/projects/image-carosuel.png",
     tags: ["HTML5", "CSS3", "JavaScript", "GitHub"],
     demoUrl: "https://nagaswaroop2611.github.io/Image-Slider/",
     githubUrl: "https://github.com/NagaSwaroop2611/Image-Slider",
@@ -64,7 +67,7 @@ const projects = [
     title: "Web Calculator",
     description:
       "Developed a web-based calculator using HTML, CSS, and JavaScript to perform basic arithmetic operations. The calculator supports addition, subtraction, multiplication, and division, along with features like clearing input, backspace, and result evaluation.",
-    image: project5,
+    image: "/projects/calculator.png",
     tags: ["HTML5", "CSS3", "JavaScript", "GitHub"],
     demoUrl: "https://nagaswaroop2611.github.io/Calculator-Level-2/",
     githubUrl: "https://github.com/NagaSwaroop2611/Calculator-Level-2",
@@ -74,8 +77,8 @@ const projects = [
     title: "Movie Rating App",
     description:
       "Movie Rating App built with React using the OMDB API to search, rate, and view detailed movie information.",
-    image: project6,
-    tags: ["React.js","omdb API"],
+    image: "/projects/usePopcorn.png",
+    tags: ["React.js", "omdb API"],
     demoUrl: "https://usepopcorn-myapp.netlify.app/",
     githubUrl: "https://github.com/NagaSwaroop2611/usePopcorn",
   },
