@@ -9,7 +9,7 @@ const projects = [
     title: "Todo App (Full Stack)",
     description:
       "A full-stack React + Node.js To-Do app with CRUD operations, MongoDB storage, and responsive design.",
-    image: "/projects/todo-app.png",
+    image: "/projects/todo-advance.png",
     tags: [
       "React",
       "Node.js",
