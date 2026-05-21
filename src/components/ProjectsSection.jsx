@@ -46,7 +46,7 @@ const projects = [
       "MongoDB",
       "Postman",
       "GitHub",
-      "Netlify",
+      "vercel",
       "Render",
     ],
     demoUrl: "https://tenon10-assignment.vercel.app/",
